@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --color-1:#1243A6;
+    --color-2:#1D64F2;
+    --color-3:#011C40;
+    --color-4:#F2EED8;
+    --color-5:#F24822;
+
+    --fuente-bree: "Bree Serif", serif;
+    --fuente-montserrat: "Montserrat", sans-serif; 
+
+}
+
+*{
+    
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+    box-sizing: border-box;
+    background-color: var(--color-3);
+    
+}
+
+.header{
+    text-align: center;
+    padding: 15px 0;
+    color:var(--color-4);
+    display: flex;
+    gap:80px;
+    
+}
+
+.encriptacion{
+    
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.contenedor__texto{
+
+    height: 45%;
+    width: 45%;
+    position: absolute;
+    font-family: var(--fuente-bree);
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: var(--color-5);
+    background-color: var(--color-4);
+    border: none;
+    border-radius: 15%;
+
+
+}
+
+.contenedor__texto__entrada{
+
+    
+}
